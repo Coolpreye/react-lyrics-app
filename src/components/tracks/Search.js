@@ -42,7 +42,7 @@ class Search extends Component {
                             <form onSubmit={this.handleSubmit.bind(this, dispatch)}>
                                 <div className="form-group">
                                     <input 
-                                        placeholder="Song titel..." 
+                                        placeholder="Song title..." 
                                         type="text" 
                                         className="form-control form-control-lg"
                                         name="trackTitle"
